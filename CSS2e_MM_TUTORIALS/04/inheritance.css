@@ -1,0 +1,19 @@
+/*
+ * Notice how adding this style to select <p> and all of it's children looks weird.
+ * This is what would happen if all properties inherited.
+ * p, p * {
+ */
+p {
+  color: #4C8D96;
+  margin-left: 50px;
+  padding-left: 20px;
+  border-left: solid 25px #bd8100
+}
+
+.pageStyle {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-sarif;
+  font-size: 18px;
+  color: #bd8100;
+  width: 900px;
+  margin: 0 auto;
+}

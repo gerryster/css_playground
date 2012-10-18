@@ -33,7 +33,7 @@ body {
   padding-top: 100px;
   background: #CDE6FF url(images/bg_body.png) repeat-x;
   width: 800px;
-  margin: 0 auto; /* What does auto mean here??? */
+  margin: 0 auto; /* Auto centers the element by telling the browser to split up available space evenly between the left and right */
 }
 h1 {
   font-size: 3em;

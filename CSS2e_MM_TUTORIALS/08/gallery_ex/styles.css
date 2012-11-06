@@ -53,8 +53,34 @@ p {
 	font-size: 1em;
 	text-transform: uppercase;
 	color: #666666;
-	margin-left: 0px;
+	margin-left: 0;
 	padding-left: 8px;
 	border-top: 1px dashed #999;
 	clear: both;
+}
+
+.photo img {
+	border: 1px solid #666;
+	background-color: #FFF;
+	padding: 4px;
+	position: relative;;
+	top: -5px;
+	left: -5px;
+}
+
+.figure p {
+	font: 1.1em/normal Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+
+.figure {
+	display: inline-block;
+	vertical-align: top;
+	width: 210px;
+	margin: 0 10px 10px 10px;
+}
+
+.photo {
+	background: url(drop_shadow.gif) right bottom no-repeat;
 }

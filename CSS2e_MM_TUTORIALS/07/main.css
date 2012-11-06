@@ -1,0 +1,61 @@
+/* reset styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+/* end reset styles */
+
+html {
+  background-color: #fdf8ab;
+}
+
+body {
+  background-color: #FFF;
+  border: 3px solid #8fa110;
+  width: 760px;
+  margin: 20px auto 0 auto;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 44px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  color: #85a110;
+  text-transform: uppercase;
+  background-color: #e2ebb4;
+  padding: 5px 15px 2px 15px;
+  /* The negative right and left margins allow the headline to touch the
+     border of the containing <body> by offsetting the body's 15px padding. */
+  margin: 0 -15px 20px -15px;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+  color: #f96b18;
+  border-top: 2px dotted #8da516;
+  border-bottom: 2px dotted #8da516;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 15px 0 5px 0;
+  overflow: hidden; /* don't show the borders behind floated elements */
+}
+
+.sidebar {
+  width: 30%;
+  float: right;
+  margin: 10px;
+  background-color: #faebc7;
+  padding: 10px 20px;
+  border: 1px dotted #fc6512;
+  border-top: 20px solid #fc6512;
+}
+
+.sidebar > h2 {
+  border: none;
+  margin-top: 0;
+  padding: 0;
+}

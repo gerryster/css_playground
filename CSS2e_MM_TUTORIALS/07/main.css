@@ -44,6 +44,13 @@ h2 {
   overflow: hidden; /* don't show the borders behind floated elements */
 }
 
+p {
+  margin-left: 20px;
+  font-family: "Hoefler Text", Times, Georga, sarif;
+  line-height: 1.1em;
+  color: rgb(12, 31, 78);
+}
+
 .sidebar {
   width: 30%;
   float: right;
@@ -58,4 +65,13 @@ h2 {
   border: none;
   margin-top: 0;
   padding: 0;
+}
+
+.copyright {
+  margin: 20px auto 0 auto;
+  text-align: center;
+  font-size: 70%;
+  font-family: "Arial Narrow", Arial, Helvetica, sarif;
+  color: rgb(138, 132, 132);
+  text-transform: uppercase;
 }

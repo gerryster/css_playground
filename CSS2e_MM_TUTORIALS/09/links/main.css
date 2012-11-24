@@ -77,6 +77,10 @@ body {
 	background: #F5EFFB;
 }
 
+#resources a {
+  border-bottom: none;
+}
+
 #resources h3 {
 	margin-top: 0;
 	color: #002D4B;
@@ -109,4 +113,50 @@ body {
 
 a {
   color: #207EBF;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid #F60;
+}
+
+a[href^='http://'] {
+    background: url(images/globe.png) no-repeat right top;
+    padding-right: 22px;
+}
+
+a[href$='.pdf'] {
+  background: url(images/acrobat.png) no-repeat right top;
+  padding-right: 22px;
+}
+
+a[href$='.zip'] {
+  background: url(images/zip.png) no-repeat right top;
+  padding-right: 22px;
+}
+
+a[href$='.doc'] {
+  background: url(images/word.png) no-repeat right top;
+  padding-right: 22px;
+}
+
+a:visited {
+  color: #6e97bf;
+}
+
+a:hover {
+  color: #FFF;
+  background-color: #6e97bf;
+  border-bottom-color: #6e97bf;
+}
+
+#legal a {
+  color: #666;
+  border: none;
+  background: url(images/email.gif) no-repeat left center;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+#resources a:hover {
+  color: #FFF;
+  background-color: #6e97bf;
 }

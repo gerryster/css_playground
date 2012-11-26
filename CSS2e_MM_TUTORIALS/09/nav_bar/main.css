@@ -19,6 +19,27 @@ body {
   padding: 20px;
 }
 
+/* I don't like this method.  It would be better to dynamically add a
+   "u_r_here" class to the link of the active page. */
+#feature #featureLink {
+  background-color: #FFF;
+  background-position: 97% 100%;
+  padding-right: 15px;
+  padding-left: 30px;
+  font-weight: bold;
+}
+
+#homeLink {
+  background-image: url(images/nav.png);
+}
+
+#home #homeLink:hover,
+#feature #featureLink:hover {
+  font-weight: bold;
+  background-color: #b2f511;
+  background-position: 3px 50%;
+}
+  
 #mainNav {
   margin: 0;
   padding: 0;
@@ -40,4 +61,10 @@ body {
   background-image: url(images/nav.png);
   background-repeat: no-repeat;
   background-position: 0 2px;
+}
+
+#mainNav a:hover {
+  font-weight: bold;
+  background-color: #b2f511;
+  background-position: 3px 50%;
 }

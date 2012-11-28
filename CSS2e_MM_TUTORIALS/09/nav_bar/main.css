@@ -21,16 +21,13 @@ body {
 
 /* I don't like this method.  It would be better to dynamically add a
    "u_r_here" class to the link of the active page. */
+#home #homeLink,
 #feature #featureLink {
   background-color: #FFF;
-  background-position: 97% 100%;
+  background-position: 3px 100%;
   padding-right: 15px;
   padding-left: 30px;
   font-weight: bold;
-}
-
-#homeLink {
-  background-image: url(images/nav.png);
 }
 
 #home #homeLink:hover,
@@ -44,8 +41,14 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-  width: 175px;
-  border-bottom: 1px dashed #999;
+  border-left: 1px dashed #999;
+  overflow: hidden;
+  zoom 1; /* for IE 6 */
+}
+
+#mainNav li {
+  float: left;
+  width: 12em;
 }
 
 #mainNav a {
@@ -54,13 +57,17 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   border: dashed #999 1px;
-  border-bottom: none;
+  border-left: none;
   padding: 7px 5px 7px 30px;
   display: block;
   background-color: #e7e7e7;
   background-image: url(images/nav.png);
   background-repeat: no-repeat;
   background-position: 0 2px;
+}
+
+#homeLink {
+  background-image: url(images/home.png);
 }
 
 #mainNav a:hover {

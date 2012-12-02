@@ -253,7 +253,7 @@ a:hover {
 .secondary #mainWrap {
 	background: #FDFCD2;
 	width: 100%;
-	overflow: hidden;
+	overflow: scroll;
 }
 
 #sidebar h2 {

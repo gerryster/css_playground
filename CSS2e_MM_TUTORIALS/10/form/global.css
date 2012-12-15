@@ -331,3 +331,43 @@ table {
 	margin-bottom: 50px;
 	font-size: 0.85em;
 }
+
+#subForm {
+	font-size: .8em;
+}
+
+/* Could also use an attribute selector like: #subform label[for] */
+#subForm .label {
+	float: left;  /* this makes label a block element */
+	clear: left;
+	width: 230px;
+	margin-right: 10px;
+	text-align: right;
+	font-weight: bold;
+}
+
+#subscribe {
+	margin-left: 240px;
+	background-color: #cbd893;
+	font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+}
+
+#refer {
+	font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+}
+
+#name, #email, #comments {
+	background-color: #FBEF99;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: .9em;
+	width: 300px;
+	margin-top: -2px;
+}
+
+#name:focus,
+#email:focus,
+#comments:focus,
+#refer:focus
+{
+	background-color: #fdd041;
+}

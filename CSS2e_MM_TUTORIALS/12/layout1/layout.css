@@ -1,0 +1,42 @@
+#sidebar {
+  float: left;
+  width: 160px;
+  margin-top: 10px;
+}
+
+#main {
+  margin-left: 180px;
+  margin-right: 200px;
+}
+
+#secondary {
+  float: right; 
+  width: 180px;
+  background-color: #294E56;
+}
+
+#secondary * {
+  color: #fff;
+}
+
+#secondary h3 {
+  font-size: 1.5em;
+
+  background: #73afb7;
+  padding: 3px 5px 3px 10px;
+}
+
+#secondary h4 {
+  font-size: 1.2em;
+  margin: 10px 10px 5px 10px;
+}
+
+#secondary p {
+  font-size: 1.2em;
+  line-height: 110%;
+  margin: 3px 10px 10px 10px;
+}
+
+body {
+  background: url(images/bg/bg_column.gif) repeat-y right top;
+}

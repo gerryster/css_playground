@@ -38,5 +38,9 @@
 }
 
 body {
+}
+
+#wrapper {
+  width: 760px;
   background: url(images/bg/bg_column.gif) repeat-y right top;
 }

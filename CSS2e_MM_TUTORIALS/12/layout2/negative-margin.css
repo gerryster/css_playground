@@ -1,0 +1,44 @@
+#wrapper {
+  width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+  border-right: 2px solid black;
+  border-left: 2px solid #000;
+  background: #fff url(images/column_bg.png) repeat-y right top;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #E6E6E6 url(images/page_bg.png) repeat-y center top;
+}
+
+#main {
+  display: inline; /*fixes IE bugs*/
+  float: left;
+  width: 419px;
+  padding-left: 10px;
+  border-left: 1px dashed #999;
+  margin-left: 160px;
+}
+
+#news {
+  float: right;
+  width: 160px;
+}
+
+#nav {
+  float: left;
+  width: 160px;
+  margin-left: -590px;
+}
+
+#legal {
+  clear: both;
+  margin-right: 160px;
+  padding: 5px 5px 20px 160px;
+  border-top: 1px dashed #999;
+  font-weight: bold;
+  color: #666;
+}
+

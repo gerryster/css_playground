@@ -2,6 +2,7 @@
 body {
 	font-size: 62.5%;
 	font-family: "Lucida Grande", Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+	margin: 20px;
 }
 
 h1, h2, h3, p, ul {
@@ -18,11 +19,20 @@ h1, h2, h3, p, ul {
 /* BANNER */
 #banner {
 	background: url(images/anniv_banner.png) no-repeat right top;
+	position: relative;
+}
+#banner #logo {
+	margin-left: 60px;
+	position: relative;
 }
 #banner ul {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
+	position: absolute;
+	right: 60px;
+	bottom: 5px;
+	zoom: 1; /* So IE 6 does not position the element from the bottom of the page. */
 }
 #banner li {
 	display: inline;
@@ -143,4 +153,10 @@ h1, h2, h3, p, ul {
 	background-color: #86B500;
 	font-weight: bold;
 	color: #000000;
+}
+
+#banner #badge {
+	position: absolute;
+	left: -18px;
+	top: -18px;
 }

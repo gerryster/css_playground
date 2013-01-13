@@ -99,11 +99,37 @@ h1, h2, h3, p, ul {
 	border-bottom: 1px solid #106A9B;
 	margin-bottom: 5px;
 	color: #663900;
+	overflow: hidden; /* do not slide under floated divs */
 }
 
 #main p {
 	font-size: 1.4em;
 	margin-bottom: 10px;
+}
+
+#main .figure {
+	float: right;
+	width: 200px;
+	margin-bottom: 2px;
+	margin-left: 10px;
+	position: relative;
+}
+
+#main .figure img {
+	display: block;
+}
+
+#main .figure p {
+	position: absolute;
+	width: 178px;
+	left:  10px;
+	bottom: 10px;
+	background-color: #fff;
+	border: 1px dashed #666;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
 }
 
 /* SIDEBAR */

@@ -86,6 +86,15 @@ h1, h2, h3, p, ul {
 
 /* MAIN CONTENT */
 
+#main {
+	margin-right: 135px;
+	margin-left: 170px;
+	padding: 0 15px 15px 20px;
+	border: 1px solid #666;
+	border-top: none;
+	border-bottom: none;
+}
+
 #main h1 {
 	color: #663900;
 	padding-top: 15px;
@@ -135,6 +144,10 @@ h1, h2, h3, p, ul {
 /* SIDEBAR */
 #sidebar {
 	background-color: #D9ECFF;
+	position: absolute;
+	top: 15px;
+	left: 0;
+	width: 170px;
 }
 
 #sidebar h2 {
@@ -167,6 +180,13 @@ h1, h2, h3, p, ul {
 }
 
 /* ADVERTISING */
+#adverts {
+	position: absolute;
+	top: 15px;
+	right: 5px;
+	width: 125px;
+}
+
 #adverts p {
 	margin-bottom: 15px;
 	text-align: center;
@@ -185,4 +205,10 @@ h1, h2, h3, p, ul {
 	position: absolute;
 	left: -18px;
 	top: -18px;
+}
+
+#contentWrapper {
+	clear: both;
+	position: relative;
+	width: 100%; /* for IE 6 */
 }
